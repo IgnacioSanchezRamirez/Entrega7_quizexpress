@@ -1,0 +1,12 @@
+<section>
+    <h2>Lista de Quizzes</h2>
+    <ul>
+
+    <% for(quiz of quizzes) { %>
+        <li>
+            <%= quiz.question %>: <%= quiz.answer %>
+        </li>
+    <% } %>
+
+    </ul>
+</section>
